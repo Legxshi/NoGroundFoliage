@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.client.mixin",
+	"package": "com.legxshi.nogroundfoliage.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"ExampleClientMixin"
+		"BlockModelRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

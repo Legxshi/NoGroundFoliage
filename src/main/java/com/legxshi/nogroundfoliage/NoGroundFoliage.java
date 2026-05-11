@@ -1,12 +1,13 @@
-package com.example;
+package com.legxshi.nogroundfoliage;
 
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExampleMod implements ModInitializer {
-	public static final String MOD_ID = "modid";
+public class NoGroundFoliage implements ModInitializer {
+
+	public static final String MOD_ID = "nogroundfoliage";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -19,6 +20,6 @@ public class ExampleMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Loading " + MOD_ID);
 	}
 }
